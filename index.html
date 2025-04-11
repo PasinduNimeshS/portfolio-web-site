@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasindu Nimesh Subasingha - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif']
+          },
+          colors: {
+            primary: '#00BFFF'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="relative overflow-x-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white font-sans">
+
+  <div id="particles-js" class="absolute inset-0 -z-10"></div>
+  <!-- Navigation -->
+<!-- Responsive Navbar -->
+<nav class="bg-gray-950 p-4 text-white px-6">
+  <div class="flex justify-between items-center max-w-7xl mx-auto">
+    <div class="text-xl font-bold">Pasindu.</div>
+
+    <!-- Hamburger Icon (visible on small screens) -->
+    <button id="menu-toggle" class="md:hidden focus:outline-none">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+           viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex gap-6 font-medium" id="nav-menu">
+      <li><a href="#" class="hover:text-primary">Home</a></li>
+      <li><a href="#about" class="hover:text-primary">About</a></li>
+      <li><a href="#skills" class="hover:text-primary">Skills</a></li>
+      <li><a href="#services" class="hover:text-primary">Services</a></li>
+      <li><a href="#contact" class="hover:text-primary">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Mobile Menu (hidden by default) -->
+  <div class="md:hidden mt-4 hidden flex-col gap-4 font-medium" id="mobile-menu">
+    <a href="#" class="hover:text-primary block">Home</a>
+    <a href="#about" class="hover:text-primary block">About</a>
+    <a href="#skills" class="hover:text-primary block">Skills</a>
+    <a href="#services" class="hover:text-primary block">Services</a>
+    <a href="#contact" class="hover:text-primary block">Contact</a>
+  </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <header class="text-center py-16">
+    <img src="profile_image.jpg" alt="Profile"
+     style="width: 180px; height: 180px;"
+     class="rounded-full mx-auto border-4 border-primary mb-4 object-cover">
+    <h1 class="text-4xl font-bold">Pasindu Nimesh Subasingha</h1>
+    <h2 class="text-xl text-primary mt-2">Software Engineer | UI/UX Designer</h2>
+    <p class="mt-4 max-w-2xl mx-auto text-gray-300">Crafting digital experiences through clean code and intuitive design. I blend logic with creativity to build modern and responsive solutions.</p>
+    <div class="mt-6 space-x-4">
+      <a href="Pasindu-CV.pdf" download class="px-5 py-2 bg-primary text-white rounded hover:bg-blue-400 transition">Download CV</a>
+      <a href="#contact" class="px-5 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-white transition">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="bg-gray-800 py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold text-primary mb-4">About Me</h2>
+    <p class="max-w-3xl mx-auto text-gray-300 mb-8">Hi! I’m Pasindu, a passionate Software Engineer and creative UI/UX Designer based in Sri Lanka. I specialize in building intuitive, user-friendly web interfaces and crafting clean, efficient backend logic. With a keen eye for detail and a love for solving problems, I strive to deliver impactful digital experiences. Whether working solo or with teams, I always aim for innovation and clarity.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <div class="bg-gray-900 p-4 rounded">🎓 <strong>Education:</strong> BSc. (Hons) in Software Engineering at General Sir John Kotelawala Defence University</div>
+
+      <div class="bg-gray-900 p-4 rounded">
+        💼 <strong>Experience:</strong> 3+ Years including freelance projects and volunteering for community tech initiatives
+      </div>
+      <div class="bg-gray-900 p-4 rounded">🌐 <strong>Location:</strong> Sri Lanka</div>
+      <div class="bg-gray-900 p-4 rounded">💬 <strong>Languages:</strong> English, Sinhala</div>
+    </div>
+    <p class="text-gray-400 italic mt-6">"Outside of work, I enjoy exploring design trends, photography, and contributing to open-source projects."</p>
+  </section>
+
+  <!-- Skills Section -->
+  <!-- Skills Section -->
+<section id="skills" class="py-20 px-6 bg-gray-900 text-white">
+  <div id="particles-skills" class="absolute inset-0 -z-10"></div>
+  <h2 class="text-4xl font-extrabold text-center text-primary mb-4 animate-fade-up" data-aos="fade-up">My Tech Stack</h2>
+  <p class="text-center max-w-2xl mx-auto text-gray-400 mb-12 animate-fade-up" data-aos="fade-up" data-aos-delay="100">Here are the tools and technologies I work with. Hover over each to take a closer look 👇</p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+    
+    <!-- Web & App Development -->
+    <div class="bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-primary/30 transition duration-500" data-aos="flip-left" data-aos-delay="100">
+      <h3 class="text-xl font-semibold text-center text-primary mb-4">💻 Web & App Development</h3>
+      <div class="flex flex-wrap justify-center gap-5">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+      </div>
+    </div>
+
+    <!-- Design Tools -->
+    <div class="bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-primary/30 transition duration-500" data-aos="flip-left" data-aos-delay="200">
+      <h3 class="text-xl font-semibold text-center text-primary mb-4">🎨 Design Tools</h3>
+      <div class="flex flex-wrap justify-center gap-5">
+        <img src="https://img.icons8.com/color/48/figma--v1.png" alt="Figma" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://img.icons8.com/color/48/adobe-photoshop--v1.png" alt="Photoshop" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://img.icons8.com/color/48/adobe-illustrator--v1.png" alt="Illustrator" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://img.icons8.com/color/48/canva.png" alt="Canva" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://cdn.prod.website-files.com/64ea57571d50b02423c4505d/64fb219ade937671b42e011e_capcut%20logo%20png.png" alt="CapCut" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+      </div>
+    </div>
+
+    <!-- Frameworks & Backend -->
+    <div class="bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-primary/30 transition duration-500" data-aos="flip-left" data-aos-delay="300">
+      <h3 class="text-xl font-semibold text-center text-primary mb-4">🔧 Backend & Frameworks</h3>
+      <div class="flex flex-wrap justify-center gap-5">
+        <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-tailwind-3d-icon-download-in-png-blend-fbx-gltf-file-formats--html-logo-css-framework-customizable-coding-lang-pack-logos-icons-7577995.png" alt="Tailwind" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+        <img src="https://img.icons8.com/color/48/mysql-logo.png" alt="MySQL" class="w-12 h-12 transition-transform duration-300 hover:scale-125">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  
+
+<!-- Services Section -->
+<section id="services" class="bg-gray-800 py-16 px-6" data-aos="fade-up">
+  <h2 class="text-3xl font-bold text-center text-primary mb-4" data-aos="fade-up">What I Do</h2>
+  <p class="text-center text-gray-300 mb-10" data-aos="fade-up" data-aos-delay="100">
+    I offer a variety of digital solutions tailored to meet your goals. Whether you're starting from scratch or refining your current digital presence, I’m here to help.
+  </p>
+
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    
+    <!-- Web Development -->
+    <!-- <div class="bg-gray-900 rounded shadow-lg hover:shadow-primary/30 transition p-4" data-aos="zoom-in" data-aos-delay="0">
+      <div class="overflow-hidden rounded mb-4">
+        <img src="https://primathon.in/blog/wp-content/uploads/2024/05/image-2-2.jpg"
+             alt="Web Development"
+             class="w-full h-40 object-cover transform transition-transform duration-300 hover:scale-105"
+             loading="lazy">
+      </div>
+      <h3 class="text-xl font-semibold text-center mb-2 text-primary">Web Development</h3>
+      <p class="text-gray-300 text-center mb-4">Responsive and optimized websites using modern web technologies.</p>
+      <div class="text-center">
+        <a href="#portfolio" class="bg-primary text-white px-4 py-2 rounded hover:bg-blue-500 transition">View Work</a>
+      </div>
+    </div> -->
+
+    <!-- Mobile App Development -->
+    <!-- <div class="bg-gray-900 rounded shadow-lg hover:shadow-primary/30 transition p-4" data-aos="zoom-in" data-aos-delay="100">
+      <div class="overflow-hidden rounded mb-4">
+        <img src="https://www.mindinventory.com/blog/wp-content/uploads/2023/12/mobile-app-development-trends.webp"
+             alt="Mobile App Development"
+             class="w-full h-40 object-cover transform transition-transform duration-300 hover:scale-105"
+             loading="lazy">
+      </div>
+      <h3 class="text-xl font-semibold text-center mb-2 text-primary">Mobile App Development</h3>
+      <p class="text-gray-300 text-center mb-4">Cross-platform apps built with Flutter and Dart for Android & iOS.</p>
+      <div class="text-center">
+        <a href="#portfolio" class="bg-primary text-white px-4 py-2 rounded hover:bg-blue-500 transition">View Work</a>
+      </div>
+    </div> -->
+
+    <!-- Software Development -->
+    <div class="bg-gray-900 rounded shadow-lg hover:shadow-primary/30 transition p-4" data-aos="zoom-in" data-aos-delay="200">
+      <div class="overflow-hidden rounded mb-4">
+        <img src="https://assets.techrepublic.com/uploads/2024/12/tr_20241220-top-software-development-technologies.jpg"
+             alt="Software Development"
+             class="w-full h-40 object-cover transform transition-transform duration-300 hover:scale-105"
+             loading="lazy">
+      </div>
+      <h3 class="text-xl font-semibold text-center mb-2 text-primary">Software Development</h3>
+      <p class="text-gray-300 text-center mb-4">Custom software solutions tailored to your business needs.</p>
+      <div class="text-center">
+        <a href="https://github.com/PasinduNimeshS" class="bg-primary text-white px-4 py-2 rounded hover:bg-blue-500 transition">View Work</a>
+      </div>
+    </div>
+
+    <!-- UI/UX Design -->
+    <div class="bg-gray-900 rounded shadow-lg hover:shadow-primary/30 transition p-4" data-aos="zoom-in" data-aos-delay="300">
+      <div class="overflow-hidden rounded mb-4">
+        <img src="https://www.itrobes.com/wp-content/uploads/2024/01/UIUX-design-cost.jpg"
+             alt="UI/UX Design"
+             class="w-full h-40 object-cover transform transition-transform duration-300 hover:scale-105"
+             loading="lazy">
+      </div>
+      <h3 class="text-xl font-semibold text-center mb-2 text-primary">UI/UX Design</h3>
+      <p class="text-gray-300 text-center mb-4">User-centered interface designs with tools like Figma and Adobe XD.</p>
+      <div class="text-center">
+        <a href="https://www.behance.net/pasindunimesh1" class="bg-primary text-white px-4 py-2 rounded hover:bg-blue-500 transition">View Work</a>
+      </div>
+    </div>
+
+    <!-- Flyer & Poster Design -->
+    <div class="bg-gray-900 rounded shadow-lg hover:shadow-primary/30 transition p-4" data-aos="zoom-in" data-aos-delay="400">
+      <div class="overflow-hidden rounded mb-4">
+        <img src="https://s.tmimgcdn.com/scr/1200x750/309100/creative-corporate-business-conference-flyer-design-and-event-flyer-poster-template_309180-original.jpg"
+             alt="Flyer Design"
+             class="w-full h-40 object-cover transform transition-transform duration-300 hover:scale-105"
+             loading="lazy">
+      </div>
+      <h3 class="text-xl font-semibold text-center mb-2 text-primary">Flyer & Poster Design</h3>
+      <p class="text-gray-300 text-center mb-4">Creative digital flyers, posters, and promotional designs with Photoshop and Illustrator.</p>
+      <div class="text-center">
+        <a href="https://www.behance.net/pasindunimesh1" class="bg-primary text-white px-4 py-2 rounded hover:bg-blue-500 transition">View Work</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 px-6">
+  <h2 class="text-3xl font-bold text-center text-primary mb-6">Let’s Connect</h2>
+  <p class="text-center text-gray-300 mb-10">Feel free to reach out for collaboration, freelance work, or just to say hi!</p>
+  <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10">
+    
+<!-- Social Links -->
+<div class="text-gray-300 space-y-4">
+  <!-- Mobile view: Only show icons, hidden on larger screens -->
+  <div class="grid grid-cols-4 gap-4 sm:hidden">
+    <a href="mailto:pasindunimesh514@gmail.com" class="flex items-center justify-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/gmail-new.png" class="w-8 h-8" alt="Gmail">
+    </a>
+    <a href="https://www.linkedin.com/in/pasindu-nimesh-/" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/linkedin.png" class="w-8 h-8" alt="LinkedIn">
+    </a>
+    <a href="https://www.instagram.com/_pasindu_nimesh_/" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/instagram-new--v1.png" class="w-8 h-8" alt="Instagram">
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100010645776100" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/facebook-new.png" class="w-8 h-8" alt="Facebook">
+    </a>
+    <a href="https://wa.me/94702618113" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/whatsapp--v1.png" class="w-8 h-8" alt="WhatsApp">
+    </a>
+    <a href="https://www.behance.net/pasindunimesh1" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/behance.png" class="w-8 h-8" alt="Behance">
+    </a>
+    <a href="https://github.com/PasinduNimeshS" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 hover:text-primary transition">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png" class="w-8 h-8 bg-white rounded-full p-1" alt="GitHub">
+    </a>
+    <a href="https://medium.com/@pasindunimesh15" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 hover:text-primary transition">
+      <img src="https://cdn0.iconfinder.com/data/icons/social-media-2092/100/social-62-512.png" class="w-8 h-8" alt="Medium">
+    </a>
+  </div>
+
+  <!-- Desktop view: Show icons with text (hidden on mobile) -->
+  <div class="sm:block hidden space-y-4">
+    <a href="mailto:pasindunimesh514@gmail.com" class="flex items-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/gmail-new.png" class="w-8 h-8" alt="Gmail"> pasindunimesh514@gmail.com
+    </a>
+    <a href="https://www.linkedin.com/in/pasindu-nimesh-/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/linkedin.png" class="w-8 h-8" alt="LinkedIn"> Pasindu Nimesh
+    </a>
+    <a href="https://www.instagram.com/_pasindu_nimesh_/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/instagram-new--v1.png" class="w-8 h-8" alt="Instagram"> Pasindu Nimesh
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100010645776100" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/facebook-new.png" class="w-8 h-8" alt="Facebook"> Pasindu Nimesh
+    </a>
+    <a href="https://wa.me/94702618113" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/whatsapp--v1.png" class="w-8 h-8" alt="WhatsApp"> +94 70 26 18 113
+    </a>
+    <a href="https://www.behance.net/pasindunimesh1" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 hover:text-primary transition">
+      <img src="https://img.icons8.com/color/48/behance.png" class="w-8 h-8" alt="Behance"> pasindunimesh1
+    </a>
+    <a href="https://github.com/PasinduNimeshS" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 hover:text-primary transition">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png" class="w-8 h-8 bg-white rounded-full p-1" alt="GitHub"> PasinduNimeshS
+    </a>
+    <a href="https://medium.com/@pasindunimesh15" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 hover:text-primary transition">
+      <img src="https://cdn0.iconfinder.com/data/icons/social-media-2092/100/social-62-512.png" class="w-8 h-8" alt="Medium"> Pasindu Nimesh
+    </a>
+  </div>
+</div>
+
+
+    
+
+    <!-- Contact Form -->
+    <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+      <input type="hidden" name="access_key" value=b5496c50-4976-4fad-99d0-ec184554d52b>
+      
+      <input type="text" name="name" placeholder="Enter your full name" required class="w-full p-3 bg-gray-900 border border-primary rounded">
+      <input type="email" name="email" placeholder="Enter your email address" required class="w-full p-3 bg-gray-900 border border-primary rounded">
+      <input type="text" name="subject" placeholder="Topic of your message" class="w-full p-3 bg-gray-900 border border-primary rounded">
+      <textarea name="message" placeholder="Type your message here" rows="5" required class="w-full p-3 bg-gray-900 border border-primary rounded"></textarea>
+    
+      <input type="hidden" name="redirect" value="https://web3forms.com/success">
+    
+      <button type="submit" class="w-full bg-primary py-3 rounded text-white font-semibold hover:bg-blue-400 transition">Send</button>
+    </form>
+    
+
+  </div>
+</section>
+
+
+  <footer class="bg-gray-950 text-center text-gray-400 text-sm py-4">
+    © 2025 Pasindu Nimesh Subasingha. All Rights Reserved.
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script>
+    const particleSettings = {
+      background: {
+        color: { value: "transparent" }
+      },
+      fpsLimit: 60,
+      motion: {
+        disable: false
+      },
+      interactivity: {
+        events: {
+          onClick: { enable: false },
+          onHover: { enable: true, mode: "repulse" },
+          resize: true
+        },
+        modes: {
+          repulse: { distance: 100, duration: 0.1 }
+        }
+      },
+      particles: {
+        color: { value: "#00BFFF" },
+        links: {
+          color: "#00BFFF",
+          distance: 150,
+          enable: true,
+          opacity: 0.5,
+          width: 1
+        },
+        collisions: { enable: true },
+        move: {
+          direction: "none",
+          enable: true,
+          outModes: { default: "bounce" },
+          random: false,
+          speed: 2,
+          straight: false
+        },
+        number: {
+          value: 60,
+          density: { enable: true, area: 800 },
+          limit: 60
+        },
+        opacity: { value: 0.5 },
+        shape: { type: "circle" },
+        size: { value: { min: 1, max: 5 } }
+      },
+      detectRetina: true
+    };
+  
+    // Load particle effects for both hero and skills sections
+    tsParticles.load("particles-js", particleSettings);
+    tsParticles.load("particles-skills", particleSettings);
+  </script>
+  
+  <script>
+    const toggleButton = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+  
+    // Toggle mobile menu on hamburger click
+    toggleButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  
+    // Auto-close menu on link click (mobile)
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+  </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,  // animation duration
+    once: false,    // triggers animation every time the element enters the viewport
+    mirror: true,   // allow animations to be triggered when scrolling back up
+  });
+</script>
+
+</body>
+</html>
