@@ -1,33 +1,33 @@
 import { Project, SkillCategory, VolunteeringEvent } from './types';
 
 //Project Images
-const project1 ='/src/assets/projects/Sinhala_OCR.png';
-const project2 ='/src/assets/projects/Sales_Management.png';
-const project3 ='/src/assets/projects/Budget_Tracker.png';
-const project4 ='/src/assets/projects/Vizo_Vote.png';
-const project5 ='/src/assets/projects/Optize.png';
-const project6 ='/src/assets/projects/Tourism.png';
-const project7 ='/src/assets/projects/Student_management.png';
+const project1 ='/assets/projects/Sinhala_OCR.png';
+const project2 ='/assets/projects/Sales_Management.png';
+const project3 ='/assets/projects/Budget_Tracker.png';
+const project4 ='/assets/projects/Vizo_Vote.png';
+const project5 ='/assets/projects/Optize.png';
+const project6 ='/assets/projects/Tourism.png';
+const project7 ='/assets/projects/Student_management.png';
 
 
 //Gallery Images
 const iciet1 ='/assets/ICIET/ICIET.png';
 
-const sb1 = '/src/assets/gallery/IEEE_SB/agm_1.jpg';
-const sb2 = '/src/assets/gallery/IEEE_SB/agm_2.jpg';
-const sb3 = '/src/assets/gallery/IEEE_SB/agm_3.jpg';
-const sb4 = '/src/assets/gallery/IEEE_SB/step_to_industry_1.jpg';
-const sb5 = '/src/assets/gallery/IEEE_SB/IEEE_Day_1.jpg';
-const sb6 = '/src/assets/gallery/IEEE_SB/IEEE_Day_2.jpg';
+const sb1 = '/assets/IEEE_SB/agm_1.jpg';
+const sb2 = '/assets/IEEE_SB/agm_2.jpg';
+const sb3 = '/assets/IEEE_SB/agm_3.jpg';
+const sb4 = '/assets/IEEE_SB/step_to_industry_1.jpg';
+const sb5 = '/assets/IEEE_SB/IEEE_Day_1.jpg';
+const sb6 = '/assets/IEEE_SB/IEEE_Day_2.jpg';
 
-const xtream = '/src/assets/gallery/Xtreme/Xtream_1.jpg';
+const xtream = '/assets/Xtreme/Xtream_1.jpg';
 
-const sl1 = '/src/assets/gallery/IEEE_SL/sl1.jpg';
-const sl2 = '/src/assets/gallery/IEEE_SL/sl2.jpg';
-const sl3 = '/src/assets/gallery/IEEE_SL/sl3.jpg';
-const sl4 = '/src/assets/gallery/IEEE_SL/sl4.jpg';
-const sl5 = '/src/assets/gallery/IEEE_SL/sl5.jpg';
-const sl6 = '/src/assets/gallery/IEEE_SL/sl6.jpg';
+const sl1 = '/assets/IEEE_SL/sl1.jpg';
+const sl2 = '/assets/IEEE_SL/sl2.jpg';
+const sl3 = '/assets/IEEE_SL/sl3.jpg';
+const sl4 = '/assets/IEEE_SL/sl4.jpg';
+const sl5 = '/assets/IEEE_SL/sl5.jpg';
+const sl6 = '/assets/IEEE_SL/sl6.jpg';
 
 export const RESUME_DATA = `
 Name: Pasindu Nimesh Subasingha
