@@ -11,7 +11,7 @@ const project7 ='/src/assets/projects/Student_management.png';
 
 
 //Gallery Images
-const iciet1 ='/src/assets/gallery/ICIET/ICIET.png';
+const iciet1 ='/assets/ICIET/ICIET.png';
 
 const sb1 = '/src/assets/gallery/IEEE_SB/agm_1.jpg';
 const sb2 = '/src/assets/gallery/IEEE_SB/agm_2.jpg';
